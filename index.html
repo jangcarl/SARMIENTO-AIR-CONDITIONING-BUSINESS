@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Polar Air</title>
+</head>
+<body class="bg-gray-100 bg-cover bg-center" style="background-image: url('./img/bluemain.jpeg');">
+
+    <!-- Video Background -->
+    <div class="absolute inset-0 z-0">
+        <video autoplay loop muted playsinline class="w-full h-full object-cover">
+            <source src="vid/videobg2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white p-4 fixed w-full top-0 z-50">
+        <div class="container mx-auto flex flex-wrap justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2 text-xl md:text-2xl font-bold">
+                <img src="img/polar.png" alt="Logo" class="w-[120px] h-[60px] object-contain">
+                <span></span>
+            </a>
+            <div class="space-x-2 md:space-x-4">
+                <a href="about.html" class="text-sm md:text-base hover:text-blue-400">About Us</a>
+                <a href="services.html" class="text-sm md:text-base hover:text-blue-400">Services</a>
+                <a href="purpose.html" class="text-sm md:text-base hover:text-blue-400">Mission & Vision</a>
+                <a href="faq.html" class="text-sm md:text-base hover:text-blue-400">FAQ</a>
+            </div>
+        </div>
+    </nav>
+
+
+    
+<!-- Hero Section --> <div class="relative min-h-screen flex items-center justify-start bg-cover bg-center" style="background-clip: url('./vid/videobg2.mp4');"> <div class="absolute inset-0 bg-black bg-opacity-50"></div> <div class="relative z-10 text-left text-white px-4 md:px-8"> <div class="overflow-hidden rounded-lg shadow-lg"> <img src="img/polar2.png" alt="Polar Logo" class="h-40 w-auto object-contain"> </div> <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">Perfecting the Air</h1> <p class="text-base sm:text-lg md:text-xl mb-6">Global expert and leader in air, energy, and climate solutions for homes and businesses.</p> </div> </div>
+
+
+    <!-- Features Section -->
+    <div class="py-12 md:py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">Why Choose Polar Air?</h2>
+            <p class="text-sm sm:text-base text-gray-600 mb-8">
+                We provide innovative solutions to make your environment comfortable and sustainable.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
+                <div class="text-center">
+                    <img src="./img/aircon1.png" alt="Feature 1" class="w-[1200px] h-[120px] object-contain">
+                    <h3 class="text-sm sm:text-base font-bold text-gray-800">Eco-Friendly</h3>
+                    <p class="text-xs sm:text-sm text-gray-600">Efficient and sustainable cooling systems.</p>
+                </div>
+                <div class="text-center">
+                    <img src="./img/aircon2.png" alt="Feature 2" class="w-[1200px] h-[120px] object-contain">
+                    <h3 class="text-sm sm:text-base font-bold text-gray-800">Innovative Design</h3>
+                    <p class="text-xs sm:text-sm text-gray-600">State-of-the-art technology for comfort and efficiency.</p>
+                </div>
+                <div class="text-center">
+                    <img src="./img/aircon3.png" alt="Feature 3" class="w-[1200px] h-[120px] object-contain">
+                    <h3 class="text-sm sm:text-base font-bold text-gray-800">Global Expertise</h3>
+                    <p class="text-xs sm:text-sm text-gray-600">Trusted by customers worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p>&copy; 2025 Polar Air. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
